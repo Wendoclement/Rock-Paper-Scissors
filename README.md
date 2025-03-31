@@ -30,16 +30,12 @@ defeats_dict = {
 Win condition: If player 1's choice defeats Player 2's choice, Player 1 wins.
 Loss condition: If player 2's choice is not defeated by player 1's choice, Player 2 wins.
 
-## Code Structure
-```python
 get_player_choice(player_number):
 Prompts a player for their choice and validates the input.
 
-```python
 ask_play_again()
 Asks players if they want to restart the game and validates the response
 
-```python
 play_game()
 This is the main loop.
 ````
